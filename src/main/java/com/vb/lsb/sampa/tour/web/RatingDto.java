@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.web;
+package com.vb.lsb.sampa.tour.web;
 
 import org.springframework.hateoas.ResourceSupport;
 
@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 /**
  * Data Transfer Object for Rating a Tour.
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 
 public class RatingDto extends ResourceSupport {
