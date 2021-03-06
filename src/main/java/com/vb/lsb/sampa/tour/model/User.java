@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Security User Entity.
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Entity
 @Table(name = "security_user")
