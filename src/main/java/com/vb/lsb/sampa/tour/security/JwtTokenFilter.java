@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.security;
+package com.vb.lsb.sampa.tour.security;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,15 +17,15 @@ import java.util.Optional;
 /**
  * Filter for Java Web Token Authentication and Authorization
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 public class JwtTokenFilter extends GenericFilterBean {
     private static final Logger LOGGER = LoggerFactory.getLogger(JwtTokenFilter.class);
     private static final String BEARER = "Bearer";
 
-    private ExploreCaliUserDetailsService userDetailsService;
+    private ExploreSampaUserDetailsService userDetailsService;
 
-    public JwtTokenFilter(ExploreCaliUserDetailsService userDetailsService) {
+    public JwtTokenFilter(ExploreSampaUserDetailsService userDetailsService) {
         this.userDetailsService = userDetailsService;
     }
 
