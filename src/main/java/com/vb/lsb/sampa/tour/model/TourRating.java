@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -6,7 +6,7 @@ import java.util.Objects;
 /**
  * Rating of a Tour by a Customer
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Entity
 @Table(name = "tour_rating")
