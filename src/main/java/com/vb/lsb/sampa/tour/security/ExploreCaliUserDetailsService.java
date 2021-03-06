@@ -1,7 +1,5 @@
-package com.vb.lsb.california.tour.security;
+package com.vb.lsb.sampa.tour.security;
 
-import com.vb.lsb.california.tour.model.User;
-import com.vb.lsb.california.tour.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -10,12 +8,15 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+import com.vb.lsb.sampa.tour.model.User;
+import com.vb.lsb.sampa.tour.repository.UserRepository;
+
 import static org.springframework.security.core.userdetails.User.withUsername;
 
 /**
  * Service to associate user with password and roles setup in the database.
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Component
 public class ExploreCaliUserDetailsService implements UserDetailsService {
