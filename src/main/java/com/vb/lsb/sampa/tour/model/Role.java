@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 import org.springframework.security.core.GrantedAuthority;
 
@@ -7,7 +7,7 @@ import javax.persistence.*;
 /**
  * Entity of a Security Role
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Entity
 @Table(name = "security_role")

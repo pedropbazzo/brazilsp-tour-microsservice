@@ -1,6 +1,5 @@
-package com.vb.lsb.california.tour.security;
+package com.vb.lsb.sampa.tour.security;
 
-import com.vb.lsb.california.tour.model.Role;
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,10 +10,12 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import com.vb.lsb.sampa.tour.model.Role;
+
 /**
  * Utility Class for common Java Web Token operations
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Component
 public class JwtProvider {

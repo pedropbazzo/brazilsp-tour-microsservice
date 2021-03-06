@@ -1,10 +1,10 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 
 /**
  * Enumeration of the level of effort.
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 public enum Difficulty {
     Easy, Medium, Difficult, Varies

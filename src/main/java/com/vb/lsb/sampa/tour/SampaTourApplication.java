@@ -1,4 +1,4 @@
-package com.vb.lsb.tour;
+package com.vb.lsb.sampa.tour;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,7 +16,7 @@ import static springfox.documentation.builders.PathSelectors.any;
 /**
  * Main Class for the Spring Boot Application
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @SpringBootApplication
 @EnableSwagger2

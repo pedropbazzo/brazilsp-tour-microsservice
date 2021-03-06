@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
@@ -7,7 +7,7 @@ import javax.persistence.Converter;
  * Hibernate Converter for the Region Enum to DB Column.
  * <p>
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Converter(autoApply = true)
 public class RegionConverter implements AttributeConverter<Region, String> {

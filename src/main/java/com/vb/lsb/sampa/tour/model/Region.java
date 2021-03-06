@@ -1,13 +1,13 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 /**
- * Enumeration of the region of California.
+ * Enumeration of the region of Sampa.
  *
- * @author Vaibhav Gupta
+ * @author @pedropbazzo
  */
 public enum Region {
-    Central_Coast("Central Coast"), Southern_California("Southern California"),
-    Northern_California("Northern California"), Varies("Varies");
+    Central_Coast("Central Coast"), Southern_Sampa("Southern Sampa"),
+    Northern_Sampa("Northern Sampa"), Varies("Varies");
     private String label;
 
     Region(String label) {
