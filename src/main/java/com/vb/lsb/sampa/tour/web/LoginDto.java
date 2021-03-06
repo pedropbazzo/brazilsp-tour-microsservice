@@ -1,9 +1,9 @@
-package com.vb.lsb.california.tour.web;
+package com.vb.lsb.sampa.tour.web;
 
 import javax.validation.constraints.NotNull;
 
 /**
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 public class LoginDto {
     @NotNull
