@@ -1,13 +1,13 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
 /**
- * The Tour contains all attributes of an Explore California Tour.
+ * The Tour contains all attributes of an Explore Sampa Tour.
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Entity
 public class Tour implements Serializable {
