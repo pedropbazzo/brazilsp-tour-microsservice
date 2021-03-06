@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vb.lsb</groupId>
-    <artifactId>california-tour</artifactId>
+    <artifactId>sampa-tour</artifactId>
     <version>0.0.2-SNAPSHOT</version>
 
-    <name>california-tour</name>
-    <description>Explore California Microservice done as part of linkedIn learning</description>
+    <name>sampa-tour</name>
+    <description>Explore Sampa Microservice done as part of linkedIn learning</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

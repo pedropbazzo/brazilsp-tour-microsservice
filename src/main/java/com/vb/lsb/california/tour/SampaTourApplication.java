@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour;
+package com.vb.lsb.tour;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,7 +20,7 @@ import static springfox.documentation.builders.PathSelectors.any;
  */
 @SpringBootApplication
 @EnableSwagger2
-public class CaliforniaTourApplication {
+public class SampaTourApplication {
     public static void main(String[] args) {
         SpringApplication.run(CaliforniaTourApplication.class, args);
     }
