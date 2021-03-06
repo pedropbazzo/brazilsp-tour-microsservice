@@ -1,8 +1,6 @@
-package com.vb.lsb.california.tour.web;
+package com.vb.lsb.sampa.tour.web;
 
 
-import com.vb.lsb.california.tour.model.TourRating;
-import com.vb.lsb.california.tour.repository.TourRepository;
 import org.springframework.data.rest.webmvc.support.RepositoryEntityLinks;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.mvc.ControllerLinkBuilder;
@@ -12,10 +10,13 @@ import org.springframework.stereotype.Component;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
+import com.vb.lsb.sampa.tour.model.TourRating;
+import com.vb.lsb.sampa.tour.repository.TourRepository;
+
 /**
  * Rating Assembler, convert TourRating to a Hateoas Supported Rating class
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Component
 public class RatingAssembler extends ResourceAssemblerSupport<TourRating, RatingDto> {
