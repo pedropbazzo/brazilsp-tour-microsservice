@@ -1,12 +1,13 @@
-package com.vb.lsb.california.tour.web;
+package com.vb.lsb.sampa.tour.web;
 
-import com.vb.lsb.california.tour.model.Role;
-import com.vb.lsb.california.tour.security.JwtProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
+
+import com.vb.lsb.sampa.tour.model.Role;
+import com.vb.lsb.sampa.tour.security.JwtProvider;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 
