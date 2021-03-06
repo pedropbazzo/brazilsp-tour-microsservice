@@ -22,15 +22,15 @@ import static springfox.documentation.builders.PathSelectors.any;
 @EnableSwagger2
 public class SampaTourApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CaliforniaTourApplication.class, args);
+        SpringApplication.run(SampaTourApplication.class, args);
     }
 
     @Bean
     public Docket docket() {
         return new Docket(DocumentationType.SWAGGER_2).select()
-                .apis(RequestHandlerSelectors.basePackage("com.vb.lsb.california.tour")).paths(any()).build()
-                .apiInfo(new ApiInfo("California Tour API's",
-                        "API's for the California Travel Service", "2.0", null,
+                .apis(RequestHandlerSelectors.basePackage("com.vb.lsb.sampa.tour")).paths(any()).build()
+                .apiInfo(new ApiInfo("Sampa Tour API's",
+                        "API's for the Sampa Travel Service", "2.0", null,
                         null,
                         null, null, new ArrayList()));
     }
