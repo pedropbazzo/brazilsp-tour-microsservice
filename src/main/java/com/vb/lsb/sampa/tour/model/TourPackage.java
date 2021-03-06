@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.model;
+package com.vb.lsb.sampa.tour.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,7 +10,7 @@ import java.util.Objects;
 /**
  * A Classification of Tours.
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Table(name = "tour_package")
 @Entity

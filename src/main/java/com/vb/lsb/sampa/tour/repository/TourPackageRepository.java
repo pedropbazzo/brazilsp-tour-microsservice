@@ -1,6 +1,5 @@
-package com.vb.lsb.california.tour.repository;
+package com.vb.lsb.sampa.tour.repository;
 
-import com.vb.lsb.california.tour.model.TourPackage;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
@@ -8,10 +7,12 @@ import org.springframework.data.rest.core.annotation.RestResource;
 
 import java.util.Optional;
 
+import com.vb.lsb.sampa.tour.model.TourPackage;
+
 /**
  * Tour Package Repository Interface
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 
 @RepositoryRestResource(collectionResourceRel = "packages", path = "packages")
