@@ -1,4 +1,4 @@
-package com.vb.lsb.california.tour.security;
+package com.vb.lsb.sampa.tour.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private ExploreCaliUserDetailsService userDetailsService;
+    private ExploreSampaUserDetailsService userDetailsService;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
