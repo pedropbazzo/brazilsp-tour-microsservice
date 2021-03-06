@@ -1,9 +1,9 @@
-package com.vb.lsb.california.tour.service;
-
-import com.vb.lsb.california.tour.model.User;
+package com.vb.lsb.sampa.tour.service;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.vb.lsb.sampa.tour.model.User;
 
 public interface UserService {
     /**

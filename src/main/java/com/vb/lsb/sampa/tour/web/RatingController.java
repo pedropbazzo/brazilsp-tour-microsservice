@@ -1,6 +1,5 @@
-package com.vb.lsb.california.tour.web;
+package com.vb.lsb.sampa.tour.web;
 
-import com.vb.lsb.california.tour.service.TourRatingService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -13,8 +12,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+import com.vb.lsb.sampa.tour.service.TourRatingService;
+
 /**
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 //@Api(description = "API to just pull ratings")
 @RestController

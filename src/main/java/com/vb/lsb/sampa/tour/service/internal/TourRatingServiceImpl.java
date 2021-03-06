@@ -1,10 +1,5 @@
-package com.vb.lsb.california.tour.service.internal;
+package com.vb.lsb.sampa.tour.service.internal;
 
-import com.vb.lsb.california.tour.model.Tour;
-import com.vb.lsb.california.tour.model.TourRating;
-import com.vb.lsb.california.tour.repository.TourRatingRepository;
-import com.vb.lsb.california.tour.repository.TourRepository;
-import com.vb.lsb.california.tour.service.TourRatingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +9,16 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+import com.vb.lsb.sampa.tour.model.Tour;
+import com.vb.lsb.sampa.tour.model.TourRating;
+import com.vb.lsb.sampa.tour.repository.TourRatingRepository;
+import com.vb.lsb.sampa.tour.repository.TourRepository;
+import com.vb.lsb.sampa.tour.service.TourRatingService;
+
 /**
  * Tour Package Service impl
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @Service
 public class TourRatingServiceImpl implements TourRatingService {

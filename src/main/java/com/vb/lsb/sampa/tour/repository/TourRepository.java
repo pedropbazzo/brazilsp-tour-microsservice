@@ -1,6 +1,7 @@
-package com.vb.lsb.california.tour.repository;
+package com.vb.lsb.sampa.tour.repository;
 
-import com.vb.lsb.california.tour.model.Tour;
+import com.vb.lsb.sampa.tour.model.Tour;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
@@ -11,7 +12,7 @@ import org.springframework.data.rest.core.annotation.RestResource;
 /**
  * Tour Repository Interface
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 public interface TourRepository extends PagingAndSortingRepository<Tour, Integer> {
 

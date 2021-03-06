@@ -2,6 +2,5 @@
 <configuration>
 
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
-    <logger name="com.vb.lsb.california.tour" level="DEBUG"/>
+    <logger name="com.vb.lsb.sampa.tour" level="DEBUG"/>
 </configuration>
-

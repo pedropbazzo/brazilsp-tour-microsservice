@@ -1,7 +1,5 @@
-package com.vb.lsb.california.tour.web;
+package com.vb.lsb.sampa.tour.web;
 
-import com.vb.lsb.california.tour.model.User;
-import com.vb.lsb.california.tour.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +9,10 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.HttpServerErrorException;
 
 import javax.validation.Valid;
+
+import com.vb.lsb.sampa.tour.model.User;
+import com.vb.lsb.sampa.tour.service.UserService;
+
 import java.util.List;
 
 @RestController

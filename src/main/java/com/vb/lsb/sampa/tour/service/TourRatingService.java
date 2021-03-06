@@ -1,6 +1,5 @@
-package com.vb.lsb.california.tour.service;
+package com.vb.lsb.sampa.tour.service;
 
-import com.vb.lsb.california.tour.model.TourRating;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -8,10 +7,12 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
+import com.vb.lsb.sampa.tour.model.TourRating;
+
 /**
  * Tour Package Service
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 public interface TourRatingService {
     /**

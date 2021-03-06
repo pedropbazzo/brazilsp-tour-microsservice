@@ -1,11 +1,5 @@
-package com.vb.lsb.california.tour.service.internal;
+package com.vb.lsb.sampa.tour.service.internal;
 
-import com.vb.lsb.california.tour.model.Role;
-import com.vb.lsb.california.tour.model.User;
-import com.vb.lsb.california.tour.repository.RoleRepository;
-import com.vb.lsb.california.tour.repository.UserRepository;
-import com.vb.lsb.california.tour.security.JwtProvider;
-import com.vb.lsb.california.tour.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +11,13 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.vb.lsb.sampa.tour.model.Role;
+import com.vb.lsb.sampa.tour.model.User;
+import com.vb.lsb.sampa.tour.repository.RoleRepository;
+import com.vb.lsb.sampa.tour.repository.UserRepository;
+import com.vb.lsb.sampa.tour.security.JwtProvider;
+import com.vb.lsb.sampa.tour.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

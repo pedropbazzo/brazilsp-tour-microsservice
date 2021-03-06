@@ -1,7 +1,5 @@
-package com.vb.lsb.california.tour.web;
+package com.vb.lsb.sampa.tour.web;
 
-import com.vb.lsb.california.tour.model.TourRating;
-import com.vb.lsb.california.tour.service.TourRatingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +14,13 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.AbstractMap;
 
+import com.vb.lsb.sampa.tour.model.TourRating;
+import com.vb.lsb.sampa.tour.service.TourRatingService;
+
 /**
  * Tour Rating Controller
  *
- * @author Vaibhav Gupta
+ * @author pedropbazzo
  */
 @RestController
 @RequestMapping(path = "/tours/{tourId}/ratings")
